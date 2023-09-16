@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="myImg" src="C:\Users\Dell\Desktop\web_internship\add\bts2.jpg" width="1000px" height="600px">
+    <p>Click the button to get the address of the image.</p>
+    <p id="demo"></p>
+    <button onclick="myAddress()">Click me!</button>
+    <script>
+        function myAddress() {
+            var x = document.getElementById('myImg').src;
+            document.getElementById('demo').innerHTML = x;
+        }
+    </script>
+</body>
+</html>
